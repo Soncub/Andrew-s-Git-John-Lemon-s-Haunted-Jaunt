@@ -261,6 +261,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2507273554760231573, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4887299417445602718, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: waypoints.Array.size
       value: 4
@@ -282,6 +286,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2076511887}
     - target: {fileID: 6724277962461408706, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1000852941}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 18879777}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 1000852941}
@@ -543,6 +555,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2507273554760231573, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4887299417445602718, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
@@ -556,6 +572,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 166229296}
     - target: {fileID: 6724277962461408706, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1000852941}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 18879777}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 1000852941}
@@ -3558,7 +3582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000852940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.93, y: 1, z: -4.32}
+  m_LocalPosition: {x: 18, y: 1, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 3.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3930,10 +3954,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1260717891446019511, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4563063071697508473, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5800229250786939221, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 18879777}
+    - target: {fileID: 5800229250786939221, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1000852941}
     - target: {fileID: 8633912972708771017, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
       propertyPath: gameEnding
       value: 
@@ -4101,10 +4137,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1260717891446019511, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4563063071697508473, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5800229250786939221, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 18879777}
+    - target: {fileID: 5800229250786939221, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1000852941}
     - target: {fileID: 8633912972708771017, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
       propertyPath: gameEnding
       value: 
@@ -4282,6 +4330,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2507273554760231573, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4887299417445602718, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
@@ -4295,6 +4347,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 852528004}
     - target: {fileID: 6724277962461408706, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1000852941}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 18879777}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 1000852941}
@@ -4407,10 +4467,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1260717891446019511, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4563063071697508473, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5800229250786939221, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 18879777}
+    - target: {fileID: 5800229250786939221, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1000852941}
     - target: {fileID: 8633912972708771017, guid: ea190407277d24827b9026a4e323dbf2, type: 3}
       propertyPath: gameEnding
       value: 
@@ -4424,6 +4496,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2507273554760231573, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4887299417445602718, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
@@ -4441,6 +4517,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 18879777}
     - target: {fileID: 6724277962461408706, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1000852941}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 18879777}
+    - target: {fileID: 7191076493291957879, guid: d3e9e24b8be4645eabc0bfbd24ec1d53, type: 3}
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 1000852941}
