@@ -133,6 +133,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 342337754991495670, guid: c5f61c83f23584905ad0858fa4946961, type: 3}
   m_PrefabInstance: {fileID: 2706182715913588227}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &18879784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18879772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f45ac33ad89404b90f1b55ddf332ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 20
+  sprintSpeed: 1
+  regularSpeed: 0.25
+  sprintDuration: 5
+  sprintCooldown: 10
 --- !u!1 &114701788
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,7 +5320,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: JohnLemon
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4553970092933773916, guid: c5f61c83f23584905ad0858fa4946961, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c5f61c83f23584905ad0858fa4946961, type: 3}
 --- !u!4 &7995073628507665235 stripped
 Transform:
