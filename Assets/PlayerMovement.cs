@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float regularSpeed = 2f;
     public float sprintDuration = 5f;
     public float sprintCooldown = 10f;
+    public GameObject cooldowntext;
+    public GameObject sprinttext;
 
     private bool isSprinting = false;
     private float sprintTimer = 5f;
@@ -83,6 +85,7 @@ public class PlayerMovement : MonoBehaviour
             if (sprintTimer <= 0f)
             {
                 StopSprint();
+                cooldowntext.SetActive(true);
             }
         }
     }
@@ -102,20 +105,29 @@ public class PlayerMovement : MonoBehaviour
 
     void StopSprint()
     {
+        sprinttext.SetActive(false);
         isSprinting = false;
         cooldownTimer = sprintCooldown;
     }
 
     void UpdateSprintCooldown()
     {
+       
+
         if (cooldownTimer > 0f)
         {
             cooldownTimer -= Time.deltaTime;
 
-            if (cooldownTimer < 0f)
+            if (cooldownTimer <= 0f)
             {
                 cooldownTimer = 0f;
+                cooldowntext.SetActive(false);
+                sprinttext.SetActive(true);
             }
+        }
+        if (cooldownTimer >= 10f)
+        {
+            cooldowntext.SetActive(true);
         }
     }
 }
