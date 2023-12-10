@@ -993,7 +993,6 @@ GameObject:
   - component: {fileID: 342337754999285278}
   - component: {fileID: 6650225744564730177}
   - component: {fileID: 6370885883512101502}
-  - component: {fileID: 4553970092933773916}
   - component: {fileID: 18879779}
   - component: {fileID: 18879778}
   m_Layer: 0
@@ -1071,19 +1070,6 @@ CapsuleCollider:
   m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
---- !u!114 &4553970092933773916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342337754991859158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df0301a6fdfa2499cb6f030d38bdf96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnSpeed: 20
 --- !u!82 &18879779
 AudioSource:
   m_ObjectHideFlags: 0
